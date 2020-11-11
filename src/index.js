@@ -1,6 +1,6 @@
 var http = require("http");
 
-const httpServer = http.createserver(handleServer);
+const httpServer = http.createServer(handleServer);
 
 function handleServer(req, res) {
   if (req.url === "/welcome") {
